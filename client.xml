@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rdpclient>
+    <server>
+        192.168.0.1
+    </server>
+
+	<domain>
+        domain
+    </domain>
+
+    <user>
+        user
+    </user>
+
+    <pwd>
+        cGFzc3dvcmQ=
+    </pwd>
+
+    <hasmemory>
+        true
+    </hasmemory>
+
+    <fullscreen>
+        true
+    </fullscreen>
+
+    <timeout>
+        false
+    </timeout>
+
+    <ignorecertificate>
+        false
+    </ignorecertificate>
+</rdpclient>
