@@ -188,7 +188,7 @@ class Program
 		}
 		else
 		{
-			baseCmd += " /size:60%";
+			baseCmd += " /size:85%";
 		}
 
 		if(ignoreCert.Active)
