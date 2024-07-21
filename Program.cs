@@ -231,6 +231,7 @@ class Program
 
 		if(data == null)
 		{
+			Console.WriteLine("Data is null");
 			return;
 		}
 
