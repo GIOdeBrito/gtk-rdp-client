@@ -1,0 +1,11 @@
+services:
+  app-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./cs-source:/app
+      - ./dist:/app/bin/Debug/net8.0
+    tty: true
+    command: "dotnet build"
+    #command: "sleep infinity"
